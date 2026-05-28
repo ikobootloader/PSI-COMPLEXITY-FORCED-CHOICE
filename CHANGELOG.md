@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## [Non versionne] - Mode rank-only
+
+### Ajoute
+- `import_ganzfeld_csv.py` accepte maintenant `--mode rank-only` pour jeux avec colonne `Rank` mais sans leurres explicites.
+- Sorties: `rank_only_trials.csv` et `rank_only_summary.json` avec test binomial exact (hasard 1/n).
+
+## [Non versionne] - Import CSV externe
+
+### Ajoute
+- Nouveau script `import_ganzfeld_csv.py` pour convertir un CSV Ganzfeld/forced-choice vers le format dataset `psicx`.
+- Mapping souple des colonnes (cible, leurres, sujet, trial, mentation) + generation automatique de `config.json`.
+
 ## [Non versionne] - Correctif CLIP
 
 ### Corrige

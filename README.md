@@ -207,3 +207,34 @@ python tests_psicx.py
 - [visualize.py](visualize.py) — diagnostic graphique confondeur/modérateur
 - [tests_psicx.py](tests_psicx.py) — tests unitaires (7 invariants)
 - [requirements.txt](requirements.txt) — dépendances optionnelles
+
+
+## Import d'un CSV externe (Ganzfeld)
+
+Un importeur minimal est disponible pour convertir un CSV tabulaire vers le format attendu par `psicx`.
+
+```bash
+python import_ganzfeld_csv.py --in "Transposed Data.csv" --out imported_data
+python psicx.py run --data imported_data --config imported_data/config.json --out imported_out --embedder mock
+```
+
+Mode alternatif pour jeux sans leurres explicites (uniquement une colonne `Rank`) :
+
+```bash
+python import_ganzfeld_csv.py --in "Transposed Data.csv" --out imported_rank --mode rank-only --n-alternatives 4
+```
+
+Ce mode produit `rank_only_trials.csv` et `rank_only_summary.json` (taux brut + p binomiale vs hasard 1/n), sans scoring sémantique complet.
+Il ne permet pas d'estimer la difficulté intra-set, ni la complexité conditionnelle sujet-cible.
+
+Le script detecte automatiquement les colonnes `target` et les colonnes de leurres (`decoy`, `lure`, `distractor`, `option`).
+Il genere `targets.csv`, `sets.csv`, `subjects.csv`, `trials.csv` et un `config.json` de base en mode `full`.
+
+### Choix de dataset pour test complet
+
+Pour tester `psicx` "a fond", il faut un dataset **trial-level** avec au minimum :
+- la cible et les leurres explicites pour chaque essai (`target_id`, `decoy_1..3`),
+- la mentation texte du sujet (`mentation`),
+- l'identifiant sujet et set.
+
+Les jeux publics Ganzfeld souvent cites (p. ex. "Transposed Data.csv", "1974-2018 Ganzfeld database") sont utiles pour des analyses de rang/hit ou meta-analyse, mais ne contiennent generalement pas toutes ces colonnes.

@@ -1,0 +1,4 @@
+﻿trial_id,participant,target,decoy_1,decoy_2,decoy_3,notes
+1,S01,img_a,img_b,img_c,img_d,impression 1
+2,S02,img_b,img_a,img_c,img_d,impression 2
+3,S01,img_c,img_a,img_b,img_d,impression 3
