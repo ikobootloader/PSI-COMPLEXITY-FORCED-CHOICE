@@ -85,7 +85,12 @@ class ClipEmbedder(Embedder):
         from PIL import Image
         self._Image = Image
         self.model = SentenceTransformer(model_name)
-        self.dim = int(self.model.get_sentence_embedding_dimension())
+        dim = self.model.get_sentence_embedding_dimension()
+        # Certains modèles CLIP exposent None ici : on infère alors la dimension.
+        if dim is None:
+            probe = self.model.encode(["probe"], convert_to_numpy=True)
+            dim = int(np.asarray(probe).shape[-1])
+        self.dim = int(dim)
 
     def embed_texts(self, texts: Sequence[str]) -> np.ndarray:
         return _l2norm(np.asarray(self.model.encode(list(texts), convert_to_numpy=True)))

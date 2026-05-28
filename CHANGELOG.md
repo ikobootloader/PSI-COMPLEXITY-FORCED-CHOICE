@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [Non versionne] - Correctif CLIP
+
+### Corrige
+- `ClipEmbedder` : correction d'un crash quand `get_sentence_embedding_dimension()` retourne `None` sur certains modeles CLIP.
+- Ajout d'un fallback robuste : infere la dimension via un encodage probe, puis initialise `dim`.
+- Validation fonctionnelle : run `--embedder clip --model clip-ViT-B-32` execute avec succes.
+
 ## [Non versionné] - Refactoring et corrections
 
 ### Corrigé — Critique
