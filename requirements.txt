@@ -1,0 +1,9 @@
+# Obligatoire
+numpy
+
+# Optionnel : backend CLIP (analyse réelle)
+sentence-transformers
+pillow
+
+# Optionnel : visualisation
+matplotlib

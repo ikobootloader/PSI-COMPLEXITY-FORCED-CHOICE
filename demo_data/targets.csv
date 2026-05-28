@@ -1,0 +1,25 @@
+target_id,image_path,label
+img_tour_eiffel,,tour eiffel monument paris
+img_pont_golden,,pont golden gate monument rouge
+img_phare_breton,,phare breton tour cotiere
+img_arc_triomphe,,arc triomphe monument paris
+img_chat_noir,,chat noir animal domestique
+img_chien_berger,,chien berger animal domestique
+img_cheval_blanc,,cheval blanc animal ferme
+img_aigle_royal,,aigle royal animal oiseau
+img_voiture_rouge,,voiture rouge vehicule route
+img_velo_ville,,velo ville vehicule route
+img_train_vapeur,,train vapeur vehicule rail
+img_bateau_voile,,bateau voile vehicule mer
+img_pomme_verte,,pomme verte fruit nourriture
+img_pain_campagne,,pain campagne nourriture
+img_cafe_tasse,,cafe tasse boisson nourriture
+img_sculpture_abs,,sculpture abstraite art moderne
+img_tableau_cubiste,,tableau cubiste art moderne
+img_fractale_bleue,,fractale bleue motif abstrait
+img_montagne_neige,,montagne neige paysage nature
+img_plage_sable,,plage sable paysage mer
+img_foret_pins,,foret pins paysage nature
+img_marteau_bois,,marteau bois outil atelier
+img_cle_metal,,cle metal outil porte
+img_lampe_bureau,,lampe bureau objet maison

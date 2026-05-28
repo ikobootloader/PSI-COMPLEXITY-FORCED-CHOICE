@@ -1,0 +1,81 @@
+trial_id,subject_id,set_id,mentation
+t000,S02,set_33,forme vague fond
+t001,S02,set_38,ligne texture contour
+t002,S01,set_14,ombre ligne contour
+t003,S04,set_22,fond couleur surface
+t004,S04,set_11,train vehicule surface contour
+t005,S02,set_10,lumiere forme contour
+t006,S04,set_22,forme metal couleur cle
+t007,S02,set_01,motif abstrait ligne ombre
+t008,S02,set_03,contour ligne surface
+t009,S02,set_33,lumiere forme contour
+t010,S02,set_30,couleur forme texture
+t011,S01,set_35,moderne cubiste forme couleur
+t012,S01,set_28,golden rouge vague contour
+t013,S03,set_35,lumiere ombre contour
+t014,S04,set_28,monument ombre golden couleur
+t015,S03,set_09,ombre vapeur rail couleur
+t016,S02,set_10,ligne texture surface
+t017,S03,set_20,ligne fruit pomme texture
+t018,S04,set_21,texture couleur vague
+t019,S01,set_05,velo route vague lumiere
+t020,S04,set_09,ligne contour texture
+t021,S01,set_11,vapeur couleur train forme
+t022,S01,set_16,contour forme ligne
+t023,S03,set_39,plage lumiere vague sable
+t024,S03,set_19,vague ombre contour
+t025,S03,set_22,forme texture vague
+t026,S04,set_15,couleur surface contour
+t027,S03,set_13,ligne lumiere ombre
+t028,S01,set_08,forme sable lumiere paysage
+t029,S03,set_38,animal contour lumiere aigle
+t030,S01,set_16,forme rouge gate ombre
+t031,S02,set_00,texture vague train vapeur
+t032,S01,set_16,forme lumiere surface
+t033,S03,set_19,couleur texture lumiere
+t034,S03,set_31,surface blanc texture cheval
+t035,S02,set_05,ligne ville vehicule couleur
+t036,S01,set_34,forme contour vague
+t037,S01,set_33,vague nourriture couleur tasse
+t038,S02,set_29,surface couleur contour
+t039,S01,set_39,ombre lumiere couleur
+t040,S03,set_39,forme fond contour
+t041,S01,set_13,vague fond texture
+t042,S04,set_07,vague ombre texture
+t043,S01,set_18,vague texture contour
+t044,S02,set_04,vague lumiere texture
+t045,S03,set_07,texture ombre contour
+t046,S02,set_00,surface contour vague
+t047,S04,set_22,ligne cle metal forme
+t048,S02,set_00,ligne fond vague
+t049,S04,set_37,forme metal vague porte
+t050,S02,set_15,ligne texture surface
+t051,S04,set_01,texture surface ombre
+t052,S01,set_26,vague contour lumiere
+t053,S02,set_30,bleue motif vague fond
+t054,S03,set_30,couleur surface lumiere
+t055,S01,set_13,contour ombre texture
+t056,S04,set_27,pomme verte lumiere couleur
+t057,S03,set_15,phare breton surface fond
+t058,S04,set_17,ligne velo vague ville
+t059,S01,set_17,surface contour fond
+t060,S01,set_08,forme contour paysage mer
+t061,S04,set_15,lumiere ombre texture
+t062,S04,set_05,fond lumiere forme
+t063,S03,set_08,surface couleur texture
+t064,S03,set_33,surface vague ombre
+t065,S01,set_34,bureau maison ligne ombre
+t066,S02,set_01,texture forme vague
+t067,S04,set_05,contour ville ombre route
+t068,S04,set_23,forme ombre vague
+t069,S02,set_31,texture vague ombre
+t070,S03,set_18,lumiere nourriture boisson ombre
+t071,S02,set_25,monument surface lumiere tour
+t072,S02,set_25,couleur monument fond paris
+t073,S02,set_33,forme surface vague
+t074,S04,set_10,berger couleur chien ligne
+t075,S04,set_22,couleur surface vague
+t076,S02,set_23,contour ligne ombre
+t077,S01,set_26,chat surface domestique forme
+t078,S03,set_12,fond texture ligne
+t079,S01,set_16,vague texture ligne

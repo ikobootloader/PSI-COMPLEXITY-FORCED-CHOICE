@@ -1,0 +1,26 @@
+{
+  "n_alternatives": 4,
+  "difficulty_metric": "mean_decoy_sim",
+  "complexity_metric": "prototypicality",
+  "anchor_concepts": [
+    "animal",
+    "monument",
+    "vehicule",
+    "nourriture",
+    "paysage",
+    "outil",
+    "objet",
+    "art",
+    "personne",
+    "batiment"
+  ],
+  "strata_quantiles": [
+    0.3333333333333333,
+    0.6666666666666666
+  ],
+  "repertoire_topk": 3,
+  "weight_difficulty_exp": 1.0,
+  "weight_conditional_exp": 1.0,
+  "mc_iterations": 20000,
+  "random_seed": 0
+}

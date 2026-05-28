@@ -1,0 +1,87 @@
+{
+  "n_trials": 80,
+  "hits": 42,
+  "mce": 0.25,
+  "raw_hit_rate": 0.525,
+  "binomial_p_one_sided": 1.2661142135143647e-07,
+  "weighted_hit_rate": 0.516845,
+  "weighted_mc_p_one_sided": 0.0,
+  "weighted_mc_null_mean": 0.249932,
+  "weighted_mc_null_sd": 0.061415,
+  "weights": {
+    "difficulty_exp_a": 1.0,
+    "conditional_exp_b": 1.0
+  },
+  "diagnostics": {
+    "hit_rate_by_target_stratum": {
+      "Simple": [
+        0.6666666666666666,
+        18
+      ],
+      "Moyen": [
+        0.5806451612903226,
+        31
+      ],
+      "Complexe": [
+        0.3870967741935484,
+        31
+      ]
+    },
+    "conditional_complexity": {
+      "median": 0.929235,
+      "rate_low_cc": [
+        0.475,
+        40
+      ],
+      "rate_high_cc": [
+        0.575,
+        40
+      ]
+    },
+    "set_difficulty": {
+      "median": 0.074875,
+      "rate_easy": [
+        0.5609756097560976,
+        41
+      ],
+      "rate_hard": [
+        0.48717948717948717,
+        39
+      ]
+    }
+  },
+  "provenance": {
+    "psicx_version": "0.1.0",
+    "analysis_plan_hash": "0701998b3b0953d44895af953f6a940c10b2a1f48e535caa6aff4107eb8ace81",
+    "embedder": "MockEmbedder",
+    "embedding_dim": 128,
+    "timestamp_utc": "2026-05-28T20:47:36Z"
+  },
+  "config": {
+    "n_alternatives": 4,
+    "difficulty_metric": "mean_decoy_sim",
+    "complexity_metric": "prototypicality",
+    "anchor_concepts": [
+      "animal",
+      "monument",
+      "vehicule",
+      "nourriture",
+      "paysage",
+      "outil",
+      "objet",
+      "art",
+      "personne",
+      "batiment"
+    ],
+    "strata_quantiles": [
+      0.3333333333333333,
+      0.6666666666666666
+    ],
+    "repertoire_topk": 3,
+    "weight_difficulty_exp": 1.0,
+    "weight_conditional_exp": 1.0,
+    "mc_iterations": 20000,
+    "mce": null,
+    "random_seed": 0
+  }
+}
